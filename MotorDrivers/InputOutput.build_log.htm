@@ -1,0 +1,74 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\crist\Desktop\ROLLING_ARM5.0\InputOutput.uvproj
+Project File Date:  11/20/2019
+
+<h2>Output:</h2>
+Rebuild target 'InputOutput'
+assembling startup.s...
+compiling InputOutput.c...
+linking...
+Program Size: Code=13952 RO-data=32 RW-data=456 ZI-data=11120  
+".\InputOutput.axf" - 0 Error(s), 0 Warning(s).
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+ Done.
+Verify OK.
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+#18: expected a ")"
+        }// if MIS == 0x08
+ULTRASONIC.c(245): error:  #65: expected a ";"
+        }// if MIS == 0x08
+ArmControl.c(42): error:  #65: expected a ";"
+  void retDefaultFromGrave(void){
+ArmControl.c(107): warning:  #12-D: parsing restarts here after previous syntax error
+        retDefaultFromBox();
+ArmControl.c(35): warning:  #177-D: variable "current_pos" was declared but never referenced
+  int16_t current_pos, target_pos;
+ArmControl.c(35): warning:  #177-D: variable "target_pos" was declared but never referenced
+  int16_t current_pos, target_pos;
+ArmControl.c(37): warning:  #177-D: variable "calculate2" was declared but never referenced
+  uint16_t calculate2;
+ArmControl.c(38): warning:  #177-D: variable "output" was declared but never referenced
+  uint16_t output, base_new;
+ArmControl.c(38): warning:  #177-D: variable "base_new" was declared but never referenced
+  uint16_t output, base_new;
+ArmControl.c(39): warning:  #177-D: variable "track" was declared but never referenced
+  uint16_t track = 0;
+ArmControl.c(112): error:  #20: identifier "target_pos" is undefined
+    if(base > target_pos){
+ArmControl.c(126): warning:  #676-D: using out-of-scope declaration of function "retDefaultFromGrave" (declared at line 42)
+        retDefaultFromGrave();
+ArmControl.c(127): error:  #20: identifier "target_pos" is undefined
+    if(base > target_pos){
+ArmControl.c(156): error:  #20: identifier "calculate2" is undefined
+        calculate2= ((-0.1724) * x_pos) + 430;
+ArmControl.c(157): error:  #20: identifier "target_pos" is undefined
+    target_pos = (short)calculate2;
+InputOutput.c: 10 warnings, 10 errors
+".\InputOutput.axf" - 10 Error(s), 10 Warning(s).
+Target not created
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+_____^
+*** error 56: cannot open file
+Error: Flash Download failed  -  Could not load file 'C:\Users\crist\Desktop\ROLLING_ARM5.0\InputOutput.axf'
+Load "C:\\Users\\crist\\Desktop\\ROLLING_ARM5.0\\InputOutput.axf" 
+_____^
+*** error 56: cannot open file
+Error: Flash Download failed  -  Could not load file 'C:\Users\crist\Desktop\ROLLING_ARM5.0\InputOutput.axf'

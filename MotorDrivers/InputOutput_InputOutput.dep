@@ -1,0 +1,11 @@
+Dependencies for Project 'InputOutput', Target 'InputOutput': (DO NOT MODIFY !)
+F (.\startup.s)(0x5DD5A3AE)(--cpu Cortex-M4 --pd "__EVAL SETA 1" -g --apcs=interwork -I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\InputOutput.c)(0x5DD5A8E1)(-c --cpu Cortex-M4 -D__EVAL -g -O0 --apcs=interwork --split_sections --signed_chars -I.. -I..\..\.. --C99-I C:\Keil\ARM\RV31\INC-I C:\Keil\ARM\CMSIS\Include-I C:\Keil\ARM\Inc\Luminary-Drvmdk -DPART_LM4F120H5QR-o .\inputoutput.o --omf_browse .\inputoutput.crf --depend .\inputoutput.d)
+I (ArmControl.c)(0x5DD5AFA4)
+I (ULTRASONIC.c)(0x5DD5AADE)
+I (Encoders.c)(0x5DD5AE9B)
+I (init.c)(0x5DD5A898)
+I (C:\Keil\ARM\ARMCC\include\stdint.h)(0x51C88A34)
+I (C:\Keil\ARM\ARMCC\include\stdlib.h)(0x51C88A34)
+I (inc/tm4c123gh6pm.h)(0x5DD5A3AE)
+I (C:\Keil\ARM\ARMCC\include\math.h)(0x51C88A34)
