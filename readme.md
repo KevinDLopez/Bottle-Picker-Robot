@@ -1,22 +1,21 @@
-# Bottle Picker Robot
+# 🤖 Bottle Picker Robot
 
 An autonomous 6-axis robotic arm system designed to detect and pick up bottles using computer vision and precision control.
 
-
-## Project Overview
+## 🔎 Project Overview
 
 The Bottle Picker Robot is an autonomous robotic system featuring a six-axis rotation arm powered by servo motors and DC motors. The robot uses camera and ultrasonic sensors for bottle detection and environmental awareness. This project demonstrates advanced integration of mechanical design, embedded systems, and computer vision techniques.
 
-### Key Features
+### ✨ Key Features
 
-- **Six-axis rotation arm** with precise movement control
-- **Computer vision system** for bottle detection
-- **Ultrasonic sensors** for proximity and obstacle detection
-- **Custom PCB** with ARM Cortex-M4 processor and SMD components
-- **Bluetooth connectivity** via HM10 module
-- **iOS companion app** for remote control and configuration
+- 🦾 **Six-axis rotation arm** with precise movement control
+- 👁️ **Computer vision system** for bottle detection
+- 📡 **Ultrasonic sensors** for proximity and obstacle detection
+- 🔋 **Custom PCB** with ARM Cortex-M4 processor and SMD components
+- 📱 **Bluetooth connectivity** via HM10 module
+- 📲 **iOS companion app** for remote control and configuration
 
-## Demo Videos
+## 🎬 Demo Videos
 
 Watch the robot in action:
 
@@ -24,7 +23,7 @@ Watch the robot in action:
 
 [Watch on YouTube: Bottle Picker Robot Demo](https://www.youtube.com/watch?v=Pb_iPCBAZcU)
 
-## Hardware Components
+## 🛠️ Hardware Components
 
 - ARM Cortex-M4 microcontroller (TM4C123GH6PM)
 - Servo motors for precise arm movement
@@ -34,7 +33,7 @@ Watch the robot in action:
 - HM10 Bluetooth module for wireless connectivity
 - Custom PCB designed and fabricated for this project
 
-## Software Architecture
+## 💻 Software Architecture
 
 The project consists of several software components:
 
@@ -43,7 +42,7 @@ The project consists of several software components:
 3. **Bluetooth Communication Protocol** - Enables remote control via the iOS app
 4. **iOS Application** - Provides user interface for remote operation and configuration
 
-## Project Structure
+## 📂 Project Structure
 
 ```
 .
@@ -59,28 +58,28 @@ The project consists of several software components:
 └── Robotic Arm- 2 power supplies - 10mm.Zip  # CAD design files
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Keil MDK or similar ARM development environment
 - Xcode for iOS application development
 - PCB fabrication equipment or service
 - Required electronic components (listed in BOM)
 
-### Firmware Setup
+### ⚙️ Firmware Setup
 
 1. Clone the repository
 2. Open the InputOutput.uvproj file in your ARM development environment
 3. Compile and flash the firmware to your microcontroller
 
-### iOS Application Setup
+### 📱 iOS Application Setup
 
 1. Navigate to the Bluetooth IOS Application directory
 2. Open HM10 Serial.xcodeproj in Xcode
 3. Build and deploy the application to your iOS device
 
-## Usage
+## 📖 Usage
 
 1. Power up the robotic arm system
 2. Connect to the robot via the iOS application using Bluetooth
@@ -89,18 +88,19 @@ The project consists of several software components:
    - Set autonomous mode parameters
    - Monitor sensor data in real-time
 
-## Technical Achievements
+## 🏆 Technical Achievements
 
 - Designed and fabricated a custom PCB using SMD components for improved reliability
 - Implemented complex control algorithms for coordinated 6-axis movement
 - Created a reliable wireless communication system using the HM10 Bluetooth module
 - Developed computer vision algorithms for bottle detection and tracking
 
-## Contributors
+## 👥 Contributors
 
-- Kevin (Lead Developer)
-- Team of 4 additional contributors
+| <img src="https://github.com/kevindlopez.png" width="100" height="100" alt="Kevin Lopez"> | <img src="https://github.com/Cristianlopez0718.png" width="100" height="100" alt="Cristian Lopez"> | <img src="https://github.com/vastlyvague.png" width="100" height="100" alt="Thomas Nguyen"> |
+| :---------------------------------------------------------------------------------------: | :------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------: |
+|                       [Kevin Lopez](https://github.com/kevindlopez)                       |                       [Cristian Lopez](https://github.com/Cristianlopez0718)                       |                       [Thomas Nguyen](https://github.com/vastlyvague)                       |
 
-## License
+## 📄 License
 
-This project is licensed under the MIT License - see the LICENSE file for details.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
